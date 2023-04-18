@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;700&family=Poppins:wght@200;700&display=swap');
+.flex{
+    background-color: plum;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-child{
+    background-color: white;
+    margin: 100px;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+}
+.flex h1{
+    color: rgb(86, 0, 86);
+}
+.flex p{
+    
+}
+
+/* FOOTER */
+#imp-link {
+    background-color: rgb(78, 39, 78);
+    color: #fdfdfd;
+    overflow: auto;
+}
+
+.div33 {
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+}
+
+.div33 p{
+    font-size:15px;
+}
+
+.div33 h3 {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+.footer-menu {
+    list-style-type: none;
+}
+
+.footer-menu li {
+    padding: 3px;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+#footer-menu-container {
+    padding-left: 100px;
+}
+
+#copyright {
+    background-color: #1e0120;
+}
+
+#copyright p {
+    padding: 15px;
+}
+
+#copypath {
+    text-align: center;
+    color: #ad52bd;
+}

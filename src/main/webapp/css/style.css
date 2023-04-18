@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;700&family=Poppins:wght@200;700&display=swap');
+
+/* RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: ;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* UTILITY CLASS */
+
+.uni-padding {
+    padding: 0 7%;
+}
+
+.small-bold-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+}
+
+.top-banner {
+    background-image: url('D:\Expenditure Adviser\images\top.png');
+    background-color: purple;
+    background-size: 300px;
+    background-repeat: no-repeat;
+
+}
+
+.banner-text {
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.logobar {
+    height: 50px;
+}
+
+.navbar {
+    padding: 22px;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+#logobar {
+    float: left;
+
+}
+
+.navbar a {
+    font-size: 25px;
+    padding: 22px;
+    color: purple;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    text-decoration: 1px underline;
+    color: purple;
+}
+
+#poster {
+    background-image: url('../images/banner.jpg');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: #fdfdfd;
+}
+
+/* FOOTER */
+#imp-link {
+    background-color: rgb(78, 39, 78);
+    color: #fdfdfd;
+    overflow: auto;
+}
+
+.div33 {
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+}
+
+.div33 p{
+    font-size:15px;
+}
+
+.div33 h3 {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+.footer-menu {
+    list-style-type: none;
+}
+
+.footer-menu li {
+    padding: 3px;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+#footer-menu-container {
+    padding-left: 100px;
+}
+
+#copyright {
+    background-color: #1e0120;
+}
+
+#copyright p {
+    padding: 15px;
+}
+
+#copypath {
+    text-align: center;
+    color: #ad52bd;
+}
+
